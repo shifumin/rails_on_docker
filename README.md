@@ -1,22 +1,23 @@
 Rails on Docker
 =====
-Template for building rails application development environment on Docker.
+Template for building rails application development environment on Docker.  
+In addition, automatic test execution and deployment environment using CricleCI.
 
 ## Operation Environment
 
-- Docker version 17.09.0-ce
-- docker-compose version 1.16.1
-- docker-machine version 0.12.2
+- Docker version 17.09.1-ce
+- docker-compose version 1.17.1
+- docker-machine version 0.13.0
 
 ## Stack
 
-- Rails 5.1 (+ Ruby 2.4.2)
+- Rails 5.1.4 (+ Ruby 2.5.0)
 - Mysql 5.7
 
 ## Readying
 
 ```
-$ docker pull ruby:2.4.2
+$ docker pull ruby:2.5.0
 $ docker pull mysql:5.7
 ```
 
