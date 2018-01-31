@@ -26,6 +26,6 @@ COPY yarn.lock /rails_app/yarn.lock
 
 RUN bundle install --jobs=4 --no-cache
 COPY . /rails_app
-RUN cp config/encrypted_secrets.yml config/secrets.yml
+# RUN cp config/encrypted_secrets.yml config/secrets.yml
 
 EXPOSE 3000
